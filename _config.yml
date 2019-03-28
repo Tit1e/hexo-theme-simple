@@ -4,8 +4,8 @@ menu:
     rss: /atom.xml
     # about: /about/
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /favicon.ico
+logo: /favicon.ico
 
 # Comment
 # e.g disqus: seansun

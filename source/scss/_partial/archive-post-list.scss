@@ -1,8 +1,11 @@
 .archive {
     max-width: 500px;
     margin: 5em auto;
+    .archive-year {
+        font-size: 2em;
+    }
     .post-item {
-        padding: 2px 0 0 50px;
+        padding: 1.5em 0;
     }
     .post-time,
     .post-title-link {
@@ -11,11 +14,10 @@
     .post-title-link {
         display: block;
         margin-left: 125px;
-        // color: #42b983;
         word-break: break-all;
         &:hover {
             border-bottom: 0;
-            color: #267B54;
+            color: #999;
         }
     }
     .post-info {
