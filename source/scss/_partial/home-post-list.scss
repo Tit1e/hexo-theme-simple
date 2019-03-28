@@ -1,13 +1,14 @@
 .home.post-list {
     margin: 2em 0;
     .post-list-item {
-        padding: 1em 0 2em;
+        padding: 1em 0;
         border-bottom: 1px solid #ddd;
         &:last-child {
             border-bottom: 0px;
         }
     }
     .post-content{
+        display: none;
         h2, h3, h4, h5, h6 {
             &:before {
                 content: '';
@@ -17,7 +18,8 @@
             list-style: initial;
         }
     }
-    .read-more {     
-        color: #42b983;
+    .read-more {
+        color: #333;
+        display: none;
     }
 }

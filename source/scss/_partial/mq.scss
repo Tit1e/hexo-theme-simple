@@ -8,7 +8,7 @@ main.container {
         margin: 0 auto;
     }
     header {
-        padding: 20px 100px;
+        padding: 20px 0px;
     }
 }
 
@@ -45,5 +45,8 @@ main.container {
     .ds-thread,
     #disqus_thread {
         margin: 2em 10px;
+    }
+    .copyright {
+        padding-left: 10px;
     }
 }

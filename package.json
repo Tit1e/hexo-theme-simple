@@ -1,5 +1,5 @@
 {
-  "name": "hexo-theme-apollo",
+  "name": "hexo-theme-simple",
   "version": "1.0.0",
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinggod/hexo-theme-apollo"
+    "url": "https://github.com/Tit1e/hexo-theme-simple"
   },
   "keywords": [
     "hexo",
     "theme",
-    "apollo"
+    "simple"
   ],
-  "author": "Sean Sun",
+  "author": "Tit1e",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinggod/hexo-theme-apollo/issues"
+    "url": "https://github.com/Tit1e/hexo-theme-simple/issues"
   },
-  "homepage": "https://github.com/pinggod/hexo-theme-apollo#readme",
+  "homepage": "https://github.com/Tit1e/hexo-theme-simple#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
