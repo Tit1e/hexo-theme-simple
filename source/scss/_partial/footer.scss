@@ -1,13 +1,16 @@
 .paginator {
     margin: 4em 0;
-    text-align: right;
+    height: 32px;
+    .prev{
+        float: left;
+    }
+    .next{
+        float: right;
+    }
     .prev, .next {
-        display: inline-block;
         margin: 0 10px;
         font-size: 14px;
         color: #999;
-        border: 2px solid rgba(0, 0, 0, 0);
-        transition: 0.3s;
         &:hover {
             border-bottom: 2px solid #999;
         }
