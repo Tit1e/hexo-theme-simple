@@ -1,21 +1,21 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+![hexo-theme-simple](https://personal-1251959693.cos.ap-chengdu.myqcloud.com/2019-03-30-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-03-30%2010.46.55.png)
 
 ## Install
 
 ``` bash
-hexo init Blog 
-cd Blog 
+hexo init Blog
+cd Blog
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+git clone https://github.com/Tit1e/hexo-theme-simple.git themes/simple
 ```
 
 ## Enable
 
-Go to `_config.yml` and change the `theme` property to `apollo` value:
+Go to `_config.yml` and change the `theme` property to `simple` value:
 
 ```yaml
-theme: apollo
+theme: simple
 
 # Show all posts in archive page using hexo-generator-archive
 archive_generator:
@@ -28,7 +28,7 @@ archive_generator:
 ## Update
 
 ``` bash
-cd themes/apollo 
+cd themes/simple 
 git pull
 ```
 
@@ -51,11 +51,11 @@ result:
 <meta name="description" content="Lorem ipsum dolor sit amet, consectetur.">
 ```
 
-If there is no `desc` property or value, hexo-theme-apollo will use `page.title` and `page.author` instead of it. 
+If there is no `desc` property or value, hexo-theme-simple will use `page.title` and `page.author` instead of it. 
 
 ## H1~H6 Title
 
-In fact, Hexo-theme-apollo only supoort two kinds of titles: h1~h3 belongs to what i called `big title`, and h4~h6 belongs to `small title`, this means that `#` and `###` have the same styles。
+In fact, Hexo-theme-simple only supoort two kinds of titles: h1~h3 belongs to what i called `big title`, and h4~h6 belongs to `small title`, this means that `#` and `###` have the same styles。
 
 Why i do this? I support that an article should be short and clean, dont let visitors spend much time to recognise the blog post structure.
 
@@ -69,7 +69,7 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-apollo support two comment plugins: Disqus and Duoshuo. please set like this in your `themes/apollo/_config.yml`:
+Hexo-theme-simple support two comment plugins: Disqus and Duoshuo. please set like this in your `themes/simple/_config.yml`:
 
 ```yaml
 disqus: seansun

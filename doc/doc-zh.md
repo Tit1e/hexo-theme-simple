@@ -17,11 +17,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 <meta name="description" content="Lorem ipsum dolor sit amet, consectetur.">
 ```
 
-如果没有配置该信息，Hexo-theme-apollo 会使用 `page.title` 和 `page.author` 来配置该标签。
+如果没有配置该信息，Hexo-theme-simple 会使用 `page.title` 和 `page.author` 来配置该标签。
 
 ## 标题
 
-实际上，Hexo-theme-apollo 只支持两种标题：`h1~h3` 大标题，`h4~h6` 小标题，也就是说，`#` 和 `###` 的样式是一样的。之所以这么处理，是因为就个人感觉而言，我们不应该为文章设置过多的层级消耗读者的阅读精力。这相当于强制使用 Hexo-theme-apollo 的用户在写文章时注意文章结构，最多只能使用两层结构。
+实际上，Hexo-theme-simple 只支持两种标题：`h1~h3` 大标题，`h4~h6` 小标题，也就是说，`#` 和 `###` 的样式是一样的。之所以这么处理，是因为就个人感觉而言，我们不应该为文章设置过多的层级消耗读者的阅读精力。这相当于强制使用 Hexo-theme-simple 的用户在写文章时注意文章结构，最多只能使用两层结构。
 
 另一个潜在的原因是因为我还没有发现好的样式来处理不同层级的标题，单纯以大小和颜色很容易让页面变得混乱和冗杂。如果你有好的建议，请告诉我:)!
 
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 
 ## 评论插件
 
-Hexo-theme-apollo 支持两种评论插件：Disqus 和 Duoshuo. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
+Hexo-theme-simple 支持两种评论插件：Disqus 和 Duoshuo. 请在 `themes/simple/_config.yml` 文件中做如下配置:
 
 ```yaml
 disqus: seansun
