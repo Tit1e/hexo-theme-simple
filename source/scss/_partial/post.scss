@@ -6,9 +6,9 @@
     .post-title {
         margin: 0.65em 0;
         color: #2c3e50;
-        font-size: 2em;
-        text-transform: uppercase;
+        font-size: 1.5em;
         font-weight: inherit;
+        font-weight: bold;
     }
 
     .post-info {
@@ -34,7 +34,6 @@
         margin: 1em 0;
         a:before {
             content: "#";
-            // color: #42b983;
             position: absolute;
             left: -0.7em;
             top: -4px;
@@ -56,7 +55,6 @@
         font-size: 18px;
     }
     a {
-        // color: #42b983;
         word-break: break-all;
     }
     blockquote {

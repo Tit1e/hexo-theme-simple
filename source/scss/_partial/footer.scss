@@ -1,6 +1,6 @@
 .paginator {
     margin: 4em 0;
-    height: 32px;
+    height: 40px;
     .prev{
         float: left;
     }
@@ -10,9 +10,16 @@
     .prev, .next {
         margin: 0 10px;
         font-size: 14px;
-        color: #999;
+        color:#2c3e50;
+        line-height: 40px;
+        padding: 0 10px;
+        font-weight: bold;
+        border-radius: 20px;
+        overflow: hidden;
         &:hover {
-            border-bottom: 2px solid #999;
+        background-color: #2c3e50;
+        color: #fff;
+        transition: 0.3s;
         }
     }
 }

@@ -15,10 +15,7 @@
         display: block;
         margin-left: 125px;
         word-break: break-all;
-        &:hover {
-            border-bottom: 0;
-            color: #999;
-        }
+        font-weight: bold;
     }
     .post-info {
         float: left;
