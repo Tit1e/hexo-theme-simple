@@ -1,5 +1,5 @@
 main.container {
-    margin: 2em 10px;
+    margin: 3em 16px;
 }
 
 @media screen and (min-width: 700px) {
@@ -33,11 +33,27 @@ main.container {
     .home.post-list,
     .archive {
         margin-top: 0;
+        .post-list-item{
+            padding-bottom: 0.5em;
+        }
     }
-    .post-content {
-        h2, h3, h4, h5, h6 {
-            max-width: 300px;
-            left: 15px;
+    .post-block{
+        .post-title{
+            margin: 0.4em 0;
+            line-height: 1.2em;
+            .post-title-link{
+                font-size: 0.8em;
+            }
+        }
+        .post-info{
+            margin: 0;
+            font-size: 12px;
+        }
+        .post-content {
+            h2, h3, h4, h5, h6 {
+                max-width: 300px;
+                left: 15px;
+            }
         }
     }
     .ds-thread,

@@ -1,8 +1,9 @@
 menu:
     blog: /
     archive: /archives/
+    album: https://album.animalcrossing.life
     rss: /atom.xml
-    # about: /about/
+    # about:
 
 favicon: /favicon.ico
 logo: /favicon.ico
