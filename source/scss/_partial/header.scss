@@ -1,10 +1,16 @@
 header {
     min-height: 60px;
 
+    #busuanzi_container_site_pv,#busuanzi_container_site_uv{
+        display: none!important;
+        opacity: 0;
+        color: transparent;
+    }
+
     .logo-link {
         float: left;
     }
-    
+
     .nav {
         float: right;
         left: 80px;
