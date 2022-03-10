@@ -1,12 +1,13 @@
 footer {
-    padding-bottom: 1px;
+    overflow: auto;
     .copyright {
         margin: 4em 0;
         border-top: 1px solid #ddd;
         p, a {
             color: #aaa;
             font-size: 14px;
-            font-weight: 100;
+            font-weight: 350;
+            letter-spacing: 0.08em;
         }
         a:hover {
             color: #888;
