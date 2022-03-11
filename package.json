@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/Tit1e/hexo-theme-simple#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.2",
-    "gulp-sass": "^2.0.4"
-  }
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  },
+  "engines": { "npm": "~12.19.0" }
 }
