@@ -1,8 +1,11 @@
 //- LaTex
 script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")
 script(src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js")
+script(src='//unpkg.com/@highlightjs/cdn-assets@11.5.0/highlight.min.js')
 //- 百度统计
 script.
+    hljs.initHighlightingOnLoad();
+
     var _hmt = _hmt || [];
     (function() {
     var hm = document.createElement("script");
@@ -10,6 +13,26 @@ script.
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(hm, s);
     })();
+    const block = document.querySelectorAll('.post-block')[0]
+    block.addEventListener('click', e => {
+        const {nodeName, src} = e.target
+        if(nodeName !== 'IMG') return
+        document.body.classList.add('overflow-hidden')
+        const div = document.createElement('div')
+        div.id = 'global-cover'
+        div.alt = '点击关闭'
+        const img = document.createElement('img')
+        img.className = 'show-pic'
+        img.src = src
+        div.appendChild(img)
+        document.body.appendChild(div)
+    })
+    document.body.addEventListener('click', e => {
+        if(e.target.id === 'global-cover'){
+            document.body.classList.remove('overflow-hidden')
+            document.body.removeChild(e.target)
+        }
+    })
 
 //- Analytics tracking
 - var ga = theme.ga
@@ -18,4 +41,3 @@ if ga
         | (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',
         != '"' + ga + '"'
         | ,'auto');ga('send','pageview');
-

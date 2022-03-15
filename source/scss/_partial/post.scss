@@ -67,6 +67,8 @@
         display: block;
         max-width: 100%;
         margin: 1em auto;
+        max-height: 400px;
+        cursor: pointer;
     }
     & > table,
     & > figure.highlight {

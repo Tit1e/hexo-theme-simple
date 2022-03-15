@@ -3,6 +3,10 @@
     background-color:  #34495e;
 }
 
+::-webkit-scrollbar {
+    width: 0 !important
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -99,4 +103,27 @@ table {
             vertical-align: text-top;
         }
     }
+}
+
+#global-cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    transition: 0.5s;
+    cursor: pointer;
+    .show-pic{
+        max-height: 90%;
+        max-width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: default;
+    }
+}
+.overflow-hidden{
+    overflow: hidden;
 }
